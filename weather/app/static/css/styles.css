@@ -1,0 +1,141 @@
+body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #00bcd4;
+    }
+
+    form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      margin-right: 10px;
+      color: #666;
+    }
+
+    input[type="text"],
+    input[type="checkbox"],
+    input[type="submit"] {
+      padding: 8px;
+      border: 1px solid #00bcd4;
+      background-color: #fff;
+      color: #333;
+      border-radius: 4px;
+      margin-right: 10px;
+    }
+
+    input[type="submit"] {
+      background-color: #00bcd4;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.2s;
+      margin-left : 10px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #008ca8;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      color: #00bcd4;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    p {
+      margin: 5px 0;
+      color: #333;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .info {
+        justify-content: center;
+    }
+
+    .watchlist {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .watchlist-item {
+      margin: 10px;
+      padding: 10px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+      width: 200px;
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    .watchlist-item p {
+      margin-bottom: 5px;
+    }
+
+    .watchlist-item img {
+      margin-top: 10px;
+    }
+
+
+    .email-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.email-section h2 {
+    color: #00bcd4;
+    margin-bottom: 10px;
+}
+
+.email-section form {
+    display: inline-block;
+}
+
+.email-section label {
+    margin-right: 10px;
+    color: #666;
+}
+
+.email-section input[type="email"],
+.email-section input[type="submit"] {
+    padding: 8px;
+    border: 1px solid #00bcd4;
+    background-color: #fff;
+    color: #333;
+    border-radius: 4px;
+}
+
+.email-section input[type="submit"] {
+    background-color: #00bcd4;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.email-section input[type="submit"]:hover {
+    background-color: #008ca8;
+}
+
+
+
